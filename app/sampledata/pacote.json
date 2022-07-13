@@ -1,0 +1,52 @@
+{
+  "pacotes": [
+    {
+      "imagem": "@drawable/pirangi",
+      "local": "@string/text_praia_de_pirangi",
+      "dias": "@string/pacote_dias",
+      "preco": "@string/preco"
+    },
+    {
+      "imagem": "@drawable/cajueiro",
+      "local": "Maior cajueiro do Mundo / RN",
+      "dias": "@string/pacote_dias",
+      "preco": "@string/preco"
+    },
+    {
+      "imagem": "@drawable/maracajau",
+      "local": "Praia de Maracajaú / RN",
+      "dias": "@string/pacote_dias",
+      "preco": "@string/preco"
+    },
+    {
+      "imagem": "@drawable/pirangi_do_norte",
+      "local": "Praia de Pirangi do Norte / RN",
+      "dias": "@string/pacote_dias",
+      "preco": "@string/preco"
+    },
+    {
+      "imagem": "@drawable/ponta_negra",
+      "local": "Praia de Ponta Negra / RN",
+      "dias": "@string/pacote_dias",
+      "preco": "@string/preco"
+    },
+    {
+      "imagem": "@drawable/praia_de_cotovelo",
+      "local": "Praia de Cotovelo / RN",
+      "dias": "@string/pacote_dias",
+      "preco": "@string/preco"
+    },
+    {
+      "imagem": "@drawable/praia_de_pipa",
+      "local": "Praia de Pipa / RN",
+      "dias": "@string/pacote_dias",
+      "preco": "@string/preco"
+    },
+    {
+      "imagem": "@drawable/praia_sta_rita",
+      "local": "Praia de Santa Rita / RN",
+      "dias": "@string/pacote_dias",
+      "preco": "@string/preco"
+    }
+  ]
+}
