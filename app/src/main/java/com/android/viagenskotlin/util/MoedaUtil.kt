@@ -4,14 +4,17 @@ import java.math.BigDecimal
 import java.text.DecimalFormat
 import java.util.*
 
-class MoedaUtil {
+object MoedaUtil {
+    private const val PORTUGUES = "pt"
+    private const val BRASIL = "br"
+    private const val FORMATO_COM_ESPACO = "R$"
+    private const val FORMATO_PADRAO = FORMATO_COM_ESPACO
 
-    companion object {
-        fun formataParaBrasileiro(valor: BigDecimal?): String {
-            val formatoBrasileiro = DecimalFormat.getCurrencyInstance(
-                Locale("pt", "br")
-            )
-            return formatoBrasileiro.format(valor).replace("R$", "R$ ")
-        }
+    fun formataParaBrasileiro(valor: BigDecimal?): String {
+        val formatoBrasileiro = DecimalFormat.getCurrencyInstance(
+            Locale(PORTUGUES, BRASIL)
+        )
+        return formatoBrasileiro.format(valor)
+            .replace(FORMATO_PADRAO, "$FORMATO_COM_ESPACO ")
     }
 }
