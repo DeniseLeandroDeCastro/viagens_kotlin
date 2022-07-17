@@ -3,4 +3,7 @@
     <string name="text_praia_de_pirangi">Praia de Pirangi / RN</string>
     <string name="pacote_dias">2 dias</string>
     <string name="preco">R$ 243,99</string>
+    <string name="conteudo_do_banner_inicial">Especiais</string>
+    <string name="pais">Brasil</string>
+    <string name="lista_pacotes_especiais">Especiais</string>
 </resources>
