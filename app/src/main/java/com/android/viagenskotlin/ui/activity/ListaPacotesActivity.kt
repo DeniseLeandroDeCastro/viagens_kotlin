@@ -1,5 +1,6 @@
 package com.android.viagenskotlin.ui.activity
 
+import android.content.Intent
 import android.os.Bundle
 import android.widget.ListView
 import androidx.appcompat.app.AppCompatActivity
@@ -15,8 +16,10 @@ class ListaPacotesActivity : AppCompatActivity() {
         setContentView(R.layout.activity_lista_pacotes)
 
         title = TITULO_APPBAR
-
         configuraLista()
+
+        val intent = Intent(this, ResumoPacoteActivity::class.java)
+        startActivity(intent)
     }
 
     private fun configuraLista() {
